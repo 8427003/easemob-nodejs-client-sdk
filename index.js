@@ -9,8 +9,8 @@ const addon = require('./build/Release/addon');
 
 addon.init('1101181211084462#yuanyin');
 
-const isLoginOk = addon.login("youke123", "youke123", (msg, from, to, type) => {
-	console.log('recive:' + msg + 'from:' + from + 'to:' + to + 'type:' + type)
+const isLoginOk = addon.login("youke123", "youke123", (msg, from, to, type, ext) => {
+	console.log('recive:' + msg + 'from:' + from + 'to:' + to + ' type:' + type + ' ext:' + ext)
 }, msg=>console.error(msg));
 
 const roomId = "96379921825794";

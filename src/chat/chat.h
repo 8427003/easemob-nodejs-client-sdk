@@ -27,7 +27,7 @@ public:
     int login(
 	const std::string &uid,
 	const std::string &passwd,
- 	void (*handleReceiveMessage)(std::string content, std::string from, std::string to, std::string type),
+ 	void (*handleReceiveMessage)(std::string content, std::string from, std::string to, std::string type, std::string ext),
  	void (*handleReceiveError)(std::string)
     );
     int joinChatroom(const std::string &roomId);
@@ -36,7 +36,7 @@ public:
 private:
     void Log(const std::string &message);
     easemob::EMClient *chatClient;
-    void (*_handleReceiveMessage)(std::string content, std::string from, std::string to, std::string type);
+    void (*_handleReceiveMessage)(std::string content, std::string from, std::string to, std::string type, std::string ext);
     void (*_handleReceiveError)(std::string);
 
     std::ofstream log_file_;

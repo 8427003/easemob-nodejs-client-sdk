@@ -12535,3 +12535,1289 @@
 [2019/10/25 15:52:0:877]: log: level: 1, area: 1, RECV:
 { verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
 
+[2019/10/25 19:40:28:607]: EMChatClientImpl::init()
+[2019/10/25 19:40:28:607]: EMConfigManager::init() 
+[2019/10/25 19:40:28:607]: ----------------------begin of config----------------------
+[2019/10/25 19:40:28:607]: key: dns_time value: 1579720982000
+[2019/10/25 19:40:28:607]: ----------------------end of config----------------------
+[2019/10/25 19:40:28:607]: addConnectionListener
+[2019/10/25 19:40:28:607]: addConnectionListener
+[2019/10/25 19:40:28:607]: addConnectionListener
+[2019/10/25 19:40:28:607]: addConnectionListener
+[2019/10/25 19:40:28:608]: EMSessionManager::login(): youke123
+[2019/10/25 19:40:28:608]: getDnsListFromServer()
+[2019/10/25 19:40:28:608]: buildUrl(): http://rs.easemob.com/easemob/server.json?sdk_version=3.1.0&app_key=1101181211084462%23yuanyin&file_version=1
+[2019/10/25 19:40:28:665]: 1 time retry
+[2019/10/25 19:40:28:665]: DNS List size: 3099
+[2019/10/25 19:40:28:665]: EMSessionManager::parseDnsServer: {"file_version":"933","resolver":{"hosts":[{"protocol":"https","port":"443","domain":"rs1.easemob.com"},{"protocol":"https","port":"443","domain":"rs3.easemob.com"},{"protocol":"https","port":"443","domain":"rs4.easemob.com"},{"protocol":"https","port":"443","domain":"rs.easemob.com"},{"protocol":"https","port":"443","domain":"rs2.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"59.110.89.59"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.190"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.187"}]},"rest":{"hosts":[{"protocol":"https","port":"443","domain":"a2-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a4-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.53"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"182.92.53.164"},{"protocol":"https","port":"443","domain":"a4.easemob.com"},{"protocol":"https","port":"443","domain":"a5-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.52"},{"protocol":"https","port":"443","domain":"a1.easemob.com"},{"protocol":"https","port":"443","domain":"a1-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a3-v2.easemob.com"}]},"msync-ws":{"hosts":[{"protocol":"http","port":"80","ip":"182.92.53.70"},{"protocol":"https","port":"443","domain":"im-api-v2.easemob.com"},{"protocol":"http","port":"80","ip":"47.95.182.153"}]},"valid_before":"1579720982","im":{"hosts":[{"port":"443","domain":"im1.easemob.com","ip":"182.92.23.59"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.26.56"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.20.117"},{"port":"443","domain":"im1.easemob.com","ip":"101.201.170.84"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.251.77"}]},"deploy_name":"easemob","tcp_resolver":{"hosts":[{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.190"},{"port":"2020","domain":"rs.easemob.com","ip":"59.110.89.59"},{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.187"}]},"msync-im":{"hosts":[{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.224"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.213"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.77"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.121.103"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.220"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.67.34"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.191"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.28.255"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.225"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.235"}]},"xmpp":{"hosts":[{"protocol":"http","port":"80","domain":"im-api.easemob.com","ip":"im-api.easemob.com"},{"protocol":"https","port":"443","domain":"im-api.easemob.com"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.70.156"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.69.7"}]},"gcm_enabled":"false"}
+[2019/10/25 19:40:28:665]: current time: 1572003628665
+[2019/10/25 19:40:28:666]: valid time: 1579720982000
+[2019/10/25 19:40:28:666]: saveConfigs()
+[2019/10/25 19:40:28:666]: write to config file: {
+    "dns_time":"1579720982000"
+}
+[2019/10/25 19:40:28:666]: ranomOffer
+[2019/10/25 19:40:28:666]: imServer before random: 
+[2019/10/25 19:40:28:666]: 47.93.69.224
+[2019/10/25 19:40:28:666]: 47.93.68.213
+[2019/10/25 19:40:28:666]: 47.93.68.77
+[2019/10/25 19:40:28:666]: 47.94.121.103
+[2019/10/25 19:40:28:666]: 47.93.69.220
+[2019/10/25 19:40:28:666]: 47.93.67.34
+[2019/10/25 19:40:28:666]: 47.93.68.191
+[2019/10/25 19:40:28:666]: 47.94.28.255
+[2019/10/25 19:40:28:666]: 47.93.69.225
+[2019/10/25 19:40:28:666]: 47.93.69.235
+[2019/10/25 19:40:28:666]: randomServers 
+[2019/10/25 19:40:28:666]: randomServers 
+[2019/10/25 19:40:28:666]: randomServers 
+[2019/10/25 19:40:28:667]: imServer after random: 
+[2019/10/25 19:40:28:667]: 47.93.69.235
+[2019/10/25 19:40:28:667]: 47.93.68.77
+[2019/10/25 19:40:28:667]: 47.93.68.191
+[2019/10/25 19:40:28:667]: 47.93.67.34
+[2019/10/25 19:40:28:667]: 47.93.69.225
+[2019/10/25 19:40:28:667]: 47.94.28.255
+[2019/10/25 19:40:28:667]: 47.93.68.213
+[2019/10/25 19:40:28:667]: 47.93.69.220
+[2019/10/25 19:40:28:667]: 47.94.121.103
+[2019/10/25 19:40:28:667]: 47.93.69.224
+[2019/10/25 19:40:28:667]: fetchToken()
+[2019/10/25 19:40:28:667]: restBaseUrl()
+[2019/10/25 19:40:28:667]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:40:28:667]: EMSessionManager::checkDNS()
+[2019/10/25 19:40:28:667]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:40:28:667]: current host: domain: 39.97.9.52 port: 80
+[2019/10/25 19:40:28:667]: fetchTokenForUser()http://39.97.9.52/1101181211084462/yuanyin/token
+[2019/10/25 19:40:28:744]: [retrieve token time] 0: 0: 77
+[2019/10/25 19:40:28:744]: fetchToken success 
+[2019/10/25 19:40:28:744]: saveToken(): user: youke123 time: 1572003628744
+[2019/10/25 19:40:28:751]: savetoken() result: 1
+[2019/10/25 19:40:28:751]: token is valid:   time: 1572003628744
+[2019/10/25 19:40:28:751]: EMDNSManager::getCurrentHost: type: 1
+[2019/10/25 19:40:28:751]: EMSessionManager::checkDNS()
+[2019/10/25 19:40:28:751]: EMDNSManager::getHost: type: 1
+[2019/10/25 19:40:28:751]: current host: domain: 47.93.69.235 port: 12024
+[2019/10/25 19:40:28:751]: setServer: 47.93.69.235
+[2019/10/25 19:40:28:751]: Calling connect...
+[2019/10/25 19:40:28:751]: doConnect()
+[2019/10/25 19:40:28:752]: current connectState: 0
+[2019/10/25 19:40:28:752]: log: level: 0, area: 1, ChatClient::connect() 
+[2019/10/25 19:40:28:752]: log: level: 0, area: 2, getSocket(): 15
+[2019/10/25 19:40:28:752]: log: level: 1, area: 2, connectSocket(): start to connecting...
+[2019/10/25 19:40:28:760]: log: level: 1, area: 2, connectSocket(): connect finished
+[2019/10/25 19:40:28:760]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, guid : 1101181211084462#yuanyin_youke123@easemob.com/mobile, auth : $t$YWMtPkSJ4PccEemM2xtDCrP9rGmsE8EAikNRvoGTqV1ms1g6lWSw8Y4R6ZP3pVV41IZnAwMAAAFuArfGvQBPGgBqF0jgsNiGB0dl34fpJ_ymcdcce9V8T3gLn8sRT5tlag, compress_algorimth : 0, command : PROVISION, payload : { os_type : 2, version : 3.1.0 } }
+
+[2019/10/25 19:40:28:761]: log: level: 0, area: 2, <----- send out data length: 214
+[2019/10/25 19:40:28:761]: Calling connect result: 1
+[2019/10/25 19:40:28:761]: start startReceive()
+[2019/10/25 19:40:28:774]: log: level: 0, area: 2, -----> received data length: 22
+[2019/10/25 19:40:28:775]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : PROVISION, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:40:28:775]: EMSessionManager::onConnect()
+[2019/10/25 19:40:28:775]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : UNREAD, payload : {  } }
+
+[2019/10/25 19:40:28:775]: [im login time] 0: 0: 23
+[2019/10/25 19:40:28:775]: login return: 0
+[2019/10/25 19:40:28:775]: log: level: 0, area: 2, <----- send out data length: 10
+[2019/10/25 19:40:28:775]: notify state change to connection listener
+[2019/10/25 19:40:28:775]: EMClient::startHeartBeat()
+[2019/10/25 19:40:28:776]: [chat login time] 0: 0:168
+[2019/10/25 19:40:28:776]: setPresence
+[2019/10/25 19:40:28:776]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 668, ns : STATISTIC, payload : { operation : 0, im_time : 23, chat_time : 168 } } } }
+
+[2019/10/25 19:40:28:776]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 412, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : youke123 } } } }
+
+[2019/10/25 19:40:28:776]: log: level: 0, area: 2, <----- send out data length: 26
+[2019/10/25 19:40:28:776]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:40:28:783]: log: level: 0, area: 2, -----> received data length: 21
+[2019/10/25 19:40:28:783]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : UNREAD, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:40:28:783]: log: level: 0, area: 1, NO unread queue, an response for ping?
+[2019/10/25 19:40:28:783]: getPong from server
+[2019/10/25 19:40:28:784]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:40:28:784]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 668, server_id : 663309718747351192 } }
+
+[2019/10/25 19:40:28:810]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:40:28:810]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 412, server_id : 663309718764128408 } }
+
+[2019/10/25 19:40:28:828]: log: level: 0, area: 2, -----> received data length: 25
+[2019/10/25 19:40:28:828]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:40:28:828]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:40:28:828]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:40:28:836]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:40:28:836]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663309718831237272, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572003628796, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663309718831237272, queue : @easemob.com } }
+
+[2019/10/25 19:40:28:836]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663309718831237272, queue : @easemob.com } }
+
+[2019/10/25 19:40:28:836]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:40:28:845]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:40:28:845]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:40:30:796]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 924, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : youke123 } } } }
+
+[2019/10/25 19:40:30:796]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:40:30:844]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:40:30:845]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 924, server_id : 663309727416977560 } }
+
+[2019/10/25 19:40:30:845]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:40:30:845]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:40:30:845]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:40:30:852]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:40:30:852]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663309727567972504, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572003630831, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663309727567972504, queue : @easemob.com } }
+
+[2019/10/25 19:40:30:852]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663309727567972504, queue : @easemob.com } }
+
+[2019/10/25 19:40:30:853]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:40:30:853]: restBaseUrl()
+[2019/10/25 19:40:30:853]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:40:30:853]: EMSessionManager::checkDNS()
+[2019/10/25 19:40:30:853]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:40:30:853]: current host: domain: 39.97.9.52 port: 80
+[2019/10/25 19:40:30:853]: token is valid:   time: 1572003628744
+[2019/10/25 19:40:30:865]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:40:30:865]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:40:45:472]: EMChatClientImpl::init()
+[2019/10/25 19:40:45:473]: EMConfigManager::init() 
+[2019/10/25 19:40:45:473]: ----------------------begin of config----------------------
+[2019/10/25 19:40:45:473]: key: dns_time value: 1579720982000
+[2019/10/25 19:40:45:473]: ----------------------end of config----------------------
+[2019/10/25 19:40:45:473]: addConnectionListener
+[2019/10/25 19:40:45:473]: addConnectionListener
+[2019/10/25 19:40:45:473]: addConnectionListener
+[2019/10/25 19:40:45:473]: addConnectionListener
+[2019/10/25 19:40:45:474]: EMSessionManager::login(): youke123
+[2019/10/25 19:40:45:474]: getDnsListFromServer()
+[2019/10/25 19:40:45:474]: buildUrl(): http://rs.easemob.com/easemob/server.json?sdk_version=3.1.0&app_key=1101181211084462%23yuanyin&file_version=1
+[2019/10/25 19:40:45:505]: 1 time retry
+[2019/10/25 19:40:45:505]: DNS List size: 3099
+[2019/10/25 19:40:45:505]: EMSessionManager::parseDnsServer: {"file_version":"933","resolver":{"hosts":[{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.187"},{"protocol":"https","port":"443","domain":"rs4.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.190"},{"protocol":"https","port":"443","domain":"rs3.easemob.com"},{"protocol":"https","port":"443","domain":"rs2.easemob.com"},{"protocol":"https","port":"443","domain":"rs.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"59.110.89.59"},{"protocol":"https","port":"443","domain":"rs1.easemob.com"}]},"rest":{"hosts":[{"protocol":"https","port":"443","domain":"a1-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"182.92.53.164"},{"protocol":"https","port":"443","domain":"a2-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.52"},{"protocol":"https","port":"443","domain":"a4-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a5-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a3-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a4.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.53"},{"protocol":"https","port":"443","domain":"a1.easemob.com"}]},"msync-ws":{"hosts":[{"protocol":"http","port":"80","ip":"182.92.53.70"},{"protocol":"http","port":"80","ip":"47.95.182.153"},{"protocol":"https","port":"443","domain":"im-api-v2.easemob.com"}]},"valid_before":"1579720982","im":{"hosts":[{"port":"443","domain":"im1.easemob.com","ip":"101.201.170.84"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.26.56"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.251.77"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.23.59"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.20.117"}]},"deploy_name":"easemob","tcp_resolver":{"hosts":[{"port":"2020","domain":"rs.easemob.com","ip":"59.110.89.59"},{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.190"},{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.187"}]},"msync-im":{"hosts":[{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.224"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.191"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.235"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.213"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.67.34"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.220"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.28.255"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.225"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.77"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.121.103"}]},"xmpp":{"hosts":[{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.70.156"},{"protocol":"https","port":"443","domain":"im-api.easemob.com"},{"protocol":"http","port":"80","domain":"im-api.easemob.com","ip":"im-api.easemob.com"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.69.7"}]},"gcm_enabled":"false"}
+[2019/10/25 19:40:45:505]: current time: 1572003645505
+[2019/10/25 19:40:45:505]: valid time: 1579720982000
+[2019/10/25 19:40:45:505]: saveConfigs()
+[2019/10/25 19:40:45:506]: write to config file: {
+    "dns_time":"1579720982000"
+}
+[2019/10/25 19:40:45:506]: ranomOffer
+[2019/10/25 19:40:45:506]: imServer before random: 
+[2019/10/25 19:40:45:506]: 47.93.69.224
+[2019/10/25 19:40:45:506]: 47.93.68.191
+[2019/10/25 19:40:45:506]: 47.93.69.235
+[2019/10/25 19:40:45:506]: 47.93.68.213
+[2019/10/25 19:40:45:506]: 47.93.67.34
+[2019/10/25 19:40:45:506]: 47.93.69.220
+[2019/10/25 19:40:45:506]: 47.94.28.255
+[2019/10/25 19:40:45:506]: 47.93.69.225
+[2019/10/25 19:40:45:506]: 47.93.68.77
+[2019/10/25 19:40:45:506]: 47.94.121.103
+[2019/10/25 19:40:45:506]: randomServers 
+[2019/10/25 19:40:45:506]: randomServers 
+[2019/10/25 19:40:45:506]: randomServers 
+[2019/10/25 19:40:45:506]: imServer after random: 
+[2019/10/25 19:40:45:506]: 47.93.69.220
+[2019/10/25 19:40:45:507]: 47.93.69.225
+[2019/10/25 19:40:45:507]: 47.94.121.103
+[2019/10/25 19:40:45:507]: 47.93.67.34
+[2019/10/25 19:40:45:507]: 47.93.68.213
+[2019/10/25 19:40:45:507]: 47.93.69.224
+[2019/10/25 19:40:45:507]: 47.93.68.77
+[2019/10/25 19:40:45:507]: 47.93.68.191
+[2019/10/25 19:40:45:507]: 47.94.28.255
+[2019/10/25 19:40:45:507]: 47.93.69.235
+[2019/10/25 19:40:45:507]: fetchToken()
+[2019/10/25 19:40:45:507]: restBaseUrl()
+[2019/10/25 19:40:45:507]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:40:45:507]: EMSessionManager::checkDNS()
+[2019/10/25 19:40:45:507]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:40:45:507]: current host: domain: 182.92.53.164 port: 80
+[2019/10/25 19:40:45:507]: fetchTokenForUser()http://182.92.53.164/1101181211084462/yuanyin/token
+[2019/10/25 19:40:45:546]: [retrieve token time] 0: 0: 39
+[2019/10/25 19:40:45:547]: fetchToken success 
+[2019/10/25 19:40:45:547]: saveToken(): user: youke123 time: 1572003645547
+[2019/10/25 19:40:45:553]: savetoken() result: 1
+[2019/10/25 19:40:45:553]: token is valid:   time: 1572003645547
+[2019/10/25 19:40:45:553]: EMDNSManager::getCurrentHost: type: 1
+[2019/10/25 19:40:45:553]: EMSessionManager::checkDNS()
+[2019/10/25 19:40:45:553]: EMDNSManager::getHost: type: 1
+[2019/10/25 19:40:45:553]: current host: domain: 47.93.69.220 port: 12024
+[2019/10/25 19:40:45:553]: setServer: 47.93.69.220
+[2019/10/25 19:40:45:553]: Calling connect...
+[2019/10/25 19:40:45:553]: doConnect()
+[2019/10/25 19:40:45:553]: current connectState: 0
+[2019/10/25 19:40:45:553]: log: level: 0, area: 1, ChatClient::connect() 
+[2019/10/25 19:40:45:553]: log: level: 0, area: 2, getSocket(): 15
+[2019/10/25 19:40:45:553]: log: level: 1, area: 2, connectSocket(): start to connecting...
+[2019/10/25 19:40:45:560]: log: level: 1, area: 2, connectSocket(): connect finished
+[2019/10/25 19:40:45:560]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, guid : 1101181211084462#yuanyin_youke123@easemob.com/mobile, auth : $t$YWMtSEYHNPccEemK7EPTMnQjxmmsE8EAikNRvoGTqV1ms1g6lWSw8Y4R6ZP3pVV41IZnAwMAAAFuArgIUABPGgA7IeJ31ifnAO8SjNfhyKxdqMCIeS8sI0Q9kresLWdx7Q, compress_algorimth : 0, command : PROVISION, payload : { os_type : 2, version : 3.1.0 } }
+
+[2019/10/25 19:40:45:560]: log: level: 0, area: 2, <----- send out data length: 214
+[2019/10/25 19:40:45:560]: Calling connect result: 1
+[2019/10/25 19:40:45:560]: start startReceive()
+[2019/10/25 19:40:45:575]: log: level: 0, area: 2, -----> received data length: 22
+[2019/10/25 19:40:45:575]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : PROVISION, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:40:45:575]: EMSessionManager::onConnect()
+[2019/10/25 19:40:45:576]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : UNREAD, payload : {  } }
+
+[2019/10/25 19:40:45:576]: [im login time] 0: 0: 22
+[2019/10/25 19:40:45:576]: notify state change to connection listener
+[2019/10/25 19:40:45:576]: login return: 0
+[2019/10/25 19:40:45:576]: EMClient::startHeartBeat()
+[2019/10/25 19:40:45:576]: log: level: 0, area: 2, <----- send out data length: 10
+[2019/10/25 19:40:45:576]: [chat login time] 0: 0:103
+[2019/10/25 19:40:45:576]: setPresence
+[2019/10/25 19:40:45:577]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 413, ns : STATISTIC, payload : { operation : 0, im_time : 22, chat_time : 103 } } } }
+
+[2019/10/25 19:40:45:577]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 669, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : youke123 } } } }
+
+[2019/10/25 19:40:45:577]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:40:45:577]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:40:45:583]: log: level: 0, area: 2, -----> received data length: 55
+[2019/10/25 19:40:45:584]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : UNREAD, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:40:45:584]: log: level: 0, area: 1, NO unread queue, an response for ping?
+[2019/10/25 19:40:45:584]: getPong from server
+[2019/10/25 19:40:45:584]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 413, server_id : 663309790847436824 } }
+
+[2019/10/25 19:40:45:608]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:40:45:608]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 669, server_id : 663309790868408344 } }
+
+[2019/10/25 19:40:45:625]: log: level: 0, area: 2, -----> received data length: 25
+[2019/10/25 19:40:45:625]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:40:45:625]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:40:45:625]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:40:45:633]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:40:45:633]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663309790931322904, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572003645578, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663309790931322904, queue : @easemob.com } }
+
+[2019/10/25 19:40:45:633]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663309790931322904, queue : @easemob.com } }
+
+[2019/10/25 19:40:45:633]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:40:45:642]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:40:45:642]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:40:47:598]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 925, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : youke123 } } } }
+
+[2019/10/25 19:40:47:598]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:40:47:640]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:40:47:640]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 925, server_id : 663309799521257496 } }
+
+[2019/10/25 19:40:47:640]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:40:47:640]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:40:47:640]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:40:47:649]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:40:47:649]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663309799642896408, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572003647607, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663309799642896408, queue : @easemob.com } }
+
+[2019/10/25 19:40:47:649]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663309799642896408, queue : @easemob.com } }
+
+[2019/10/25 19:40:47:649]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:40:47:649]: restBaseUrl()
+[2019/10/25 19:40:47:649]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:40:47:649]: EMSessionManager::checkDNS()
+[2019/10/25 19:40:47:650]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:40:47:650]: current host: domain: 182.92.53.164 port: 80
+[2019/10/25 19:40:47:650]: token is valid:   time: 1572003645547
+[2019/10/25 19:40:47:661]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:40:47:662]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:41:0:551]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 1181, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : youke123 } } } }
+
+[2019/10/25 19:41:0:551]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:41:0:595]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:41:0:595]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 1181, server_id : 663309855238391832 } }
+
+[2019/10/25 19:41:0:595]: log: level: 0, area: 2, -----> received data length: 25
+[2019/10/25 19:41:0:595]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:41:0:596]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:41:0:596]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:41:0:605]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:41:0:605]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663309855376803864, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572003660583, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663309855376803864, queue : @easemob.com } }
+
+[2019/10/25 19:41:0:605]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663309855376803864, queue : @easemob.com } }
+
+[2019/10/25 19:41:0:605]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:41:0:616]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:41:0:616]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:41:5:562]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 1437, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : youke123 } } } }
+
+[2019/10/25 19:41:5:562]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:41:5:602]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:41:5:602]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 1437, server_id : 663309876734199832 } }
+
+[2019/10/25 19:41:5:602]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:41:5:602]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:41:5:602]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:41:5:610]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:41:5:610]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663309876855834648, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572003665584, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663309876855834648, queue : @easemob.com } }
+
+[2019/10/25 19:41:5:610]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663309876855834648, queue : @easemob.com } }
+
+[2019/10/25 19:41:5:610]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:41:5:610]: restBaseUrl()
+[2019/10/25 19:41:5:610]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:41:5:611]: EMSessionManager::checkDNS()
+[2019/10/25 19:41:5:611]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:41:5:611]: current host: domain: 182.92.53.164 port: 80
+[2019/10/25 19:41:5:611]: token is valid:   time: 1572003645547
+[2019/10/25 19:41:5:620]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:41:5:620]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:41:39:602]: log: level: 0, area: 2, -----> received data length: 52
+[2019/10/25 19:41:39:602]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:41:39:603]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:41:39:603]: log: level: 0, area: 2, <----- send out data length: 52
+[2019/10/25 19:41:39:613]: log: level: 0, area: 2, -----> received data length: 294
+[2019/10/25 19:41:39:613]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663310022800836668, from : 1101181211084462#yuanyin_youke456@easemob.com/desktop, to : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, timestamp : 1572003699564, ns : CHAT, payload : { chattype : CHATROOM, from : youke456, to : 96379921825794, contents : [ { contenttype : TEXT, text : wahhahahaha } ], exts : [ { key : userInfo, type : 7, value : 120 } ] } } ], next_key : 663310022800836668, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:41:39:613]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663310022800836668, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:41:39:613]: log: level: 0, area: 2, <----- send out data length: 62
+[2019/10/25 19:41:39:614]: operator() : shouldCreate : 1
+[2019/10/25 19:41:39:624]: log: level: 0, area: 2, -----> received data length: 65
+[2019/10/25 19:41:39:625]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:41:39:885]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:41:39:885]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663310024042354708, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572003699860, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : PRESENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:47:19:134]: EMChatClientImpl::init()
+[2019/10/25 19:47:19:135]: EMConfigManager::init() 
+[2019/10/25 19:47:19:135]: ----------------------begin of config----------------------
+[2019/10/25 19:47:19:135]: key: dns_time value: 1579720982000
+[2019/10/25 19:47:19:135]: ----------------------end of config----------------------
+[2019/10/25 19:47:19:135]: addConnectionListener
+[2019/10/25 19:47:19:135]: addConnectionListener
+[2019/10/25 19:47:19:135]: addConnectionListener
+[2019/10/25 19:47:19:135]: addConnectionListener
+[2019/10/25 19:47:19:136]: EMSessionManager::login(): youke123
+[2019/10/25 19:47:19:136]: getDnsListFromServer()
+[2019/10/25 19:47:19:136]: buildUrl(): http://rs.easemob.com/easemob/server.json?sdk_version=3.1.0&app_key=1101181211084462%23yuanyin&file_version=1
+[2019/10/25 19:47:19:192]: 1 time retry
+[2019/10/25 19:47:19:192]: DNS List size: 3099
+[2019/10/25 19:47:19:192]: EMSessionManager::parseDnsServer: {"file_version":"933","resolver":{"hosts":[{"protocol":"https","port":"443","domain":"rs2.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.190"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.187"},{"protocol":"https","port":"443","domain":"rs4.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"59.110.89.59"},{"protocol":"https","port":"443","domain":"rs1.easemob.com"},{"protocol":"https","port":"443","domain":"rs3.easemob.com"},{"protocol":"https","port":"443","domain":"rs.easemob.com"}]},"rest":{"hosts":[{"protocol":"https","port":"443","domain":"a1-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.52"},{"protocol":"https","port":"443","domain":"a5-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a2-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a4-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a4.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"182.92.53.164"},{"protocol":"https","port":"443","domain":"a3-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.53"},{"protocol":"https","port":"443","domain":"a1.easemob.com"}]},"msync-ws":{"hosts":[{"protocol":"https","port":"443","domain":"im-api-v2.easemob.com"},{"protocol":"http","port":"80","ip":"47.95.182.153"},{"protocol":"http","port":"80","ip":"182.92.53.70"}]},"valid_before":"1579720982","im":{"hosts":[{"port":"443","domain":"im1.easemob.com","ip":"182.92.20.117"},{"port":"443","domain":"im1.easemob.com","ip":"101.201.170.84"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.251.77"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.23.59"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.26.56"}]},"deploy_name":"easemob","tcp_resolver":{"hosts":[{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.190"},{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.187"},{"port":"2020","domain":"rs.easemob.com","ip":"59.110.89.59"}]},"msync-im":{"hosts":[{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.67.34"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.77"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.225"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.220"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.224"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.121.103"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.213"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.191"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.28.255"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.235"}]},"xmpp":{"hosts":[{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.70.156"},{"protocol":"https","port":"443","domain":"im-api.easemob.com"},{"protocol":"http","port":"80","domain":"im-api.easemob.com","ip":"im-api.easemob.com"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.69.7"}]},"gcm_enabled":"false"}
+[2019/10/25 19:47:19:193]: current time: 1572004039193
+[2019/10/25 19:47:19:193]: valid time: 1579720982000
+[2019/10/25 19:47:19:193]: saveConfigs()
+[2019/10/25 19:47:19:193]: write to config file: {
+    "dns_time":"1579720982000"
+}
+[2019/10/25 19:47:19:193]: ranomOffer
+[2019/10/25 19:47:19:193]: imServer before random: 
+[2019/10/25 19:47:19:193]: 47.93.67.34
+[2019/10/25 19:47:19:193]: 47.93.68.77
+[2019/10/25 19:47:19:193]: 47.93.69.225
+[2019/10/25 19:47:19:193]: 47.93.69.220
+[2019/10/25 19:47:19:193]: 47.93.69.224
+[2019/10/25 19:47:19:193]: 47.94.121.103
+[2019/10/25 19:47:19:193]: 47.93.68.213
+[2019/10/25 19:47:19:193]: 47.93.68.191
+[2019/10/25 19:47:19:193]: 47.94.28.255
+[2019/10/25 19:47:19:193]: 47.93.69.235
+[2019/10/25 19:47:19:193]: randomServers 
+[2019/10/25 19:47:19:194]: randomServers 
+[2019/10/25 19:47:19:194]: randomServers 
+[2019/10/25 19:47:19:194]: imServer after random: 
+[2019/10/25 19:47:19:194]: 47.94.28.255
+[2019/10/25 19:47:19:194]: 47.93.69.225
+[2019/10/25 19:47:19:194]: 47.94.121.103
+[2019/10/25 19:47:19:194]: 47.93.68.191
+[2019/10/25 19:47:19:194]: 47.93.69.220
+[2019/10/25 19:47:19:194]: 47.93.68.213
+[2019/10/25 19:47:19:194]: 47.93.67.34
+[2019/10/25 19:47:19:194]: 47.93.69.235
+[2019/10/25 19:47:19:194]: 47.93.68.77
+[2019/10/25 19:47:19:194]: 47.93.69.224
+[2019/10/25 19:47:19:194]: fetchToken()
+[2019/10/25 19:47:19:194]: restBaseUrl()
+[2019/10/25 19:47:19:194]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:47:19:194]: EMSessionManager::checkDNS()
+[2019/10/25 19:47:19:194]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:47:19:194]: current host: domain: 39.97.9.53 port: 80
+[2019/10/25 19:47:19:194]: fetchTokenForUser()http://39.97.9.53/1101181211084462/yuanyin/token
+[2019/10/25 19:47:19:251]: [retrieve token time] 0: 0: 57
+[2019/10/25 19:47:19:251]: fetchToken success 
+[2019/10/25 19:47:19:251]: saveToken(): user: youke123 time: 1572004039251
+[2019/10/25 19:47:19:259]: savetoken() result: 1
+[2019/10/25 19:47:19:259]: token is valid:   time: 1572004039251
+[2019/10/25 19:47:19:259]: EMDNSManager::getCurrentHost: type: 1
+[2019/10/25 19:47:19:259]: EMSessionManager::checkDNS()
+[2019/10/25 19:47:19:259]: EMDNSManager::getHost: type: 1
+[2019/10/25 19:47:19:259]: current host: domain: 47.94.28.255 port: 12024
+[2019/10/25 19:47:19:259]: setServer: 47.94.28.255
+[2019/10/25 19:47:19:259]: Calling connect...
+[2019/10/25 19:47:19:259]: doConnect()
+[2019/10/25 19:47:19:259]: current connectState: 0
+[2019/10/25 19:47:19:259]: log: level: 0, area: 1, ChatClient::connect() 
+[2019/10/25 19:47:19:259]: log: level: 0, area: 2, getSocket(): 15
+[2019/10/25 19:47:19:260]: log: level: 1, area: 2, connectSocket(): start to connecting...
+[2019/10/25 19:47:19:266]: log: level: 1, area: 2, connectSocket(): connect finished
+[2019/10/25 19:47:19:266]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, guid : 1101181211084462#yuanyin_youke123@easemob.com/mobile, auth : $t$YWMtMvSB1PcdEemZuSvO6AkbN2msE8EAikNRvoGTqV1ms1g6lWSw8Y4R6ZP3pVV41IZnAwMAAAFuAr4KUgBPGgDxkSkDguArhFQNA0-VoqCMNdKUNd8HWichbzyWzMsuyw, compress_algorimth : 0, command : PROVISION, payload : { os_type : 2, version : 3.1.0 } }
+
+[2019/10/25 19:47:19:266]: log: level: 0, area: 2, <----- send out data length: 214
+[2019/10/25 19:47:19:266]: Calling connect result: 1
+[2019/10/25 19:47:19:266]: start startReceive()
+[2019/10/25 19:47:19:282]: log: level: 0, area: 2, -----> received data length: 22
+[2019/10/25 19:47:19:282]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : PROVISION, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:47:19:282]: EMSessionManager::onConnect()
+[2019/10/25 19:47:19:282]: notify state change to connection listener
+[2019/10/25 19:47:19:283]: [im login time] 0: 0: 23
+[2019/10/25 19:47:19:283]: EMClient::startHeartBeat()
+[2019/10/25 19:47:19:283]: login return: 0
+[2019/10/25 19:47:19:283]: [chat login time] 0: 0:147
+[2019/10/25 19:47:19:283]: setPresence
+[2019/10/25 19:47:19:283]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 663, ns : STATISTIC, payload : { operation : 0, im_time : 23, chat_time : 147 } } } }
+
+[2019/10/25 19:47:19:283]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 407, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : youke123 } } } }
+
+[2019/10/25 19:47:19:283]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : UNREAD, payload : {  } }
+
+[2019/10/25 19:47:19:283]: log: level: 0, area: 2, <----- send out data length: 26
+[2019/10/25 19:47:19:284]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:47:19:284]: log: level: 0, area: 2, <----- send out data length: 10
+[2019/10/25 19:47:19:291]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:47:19:291]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 663, server_id : 663311481957255188 } }
+
+[2019/10/25 19:47:19:302]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:47:19:303]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 407, server_id : 663311481957259284 } }
+
+[2019/10/25 19:47:19:317]: log: level: 0, area: 2, -----> received data length: 25
+[2019/10/25 19:47:19:317]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:47:19:317]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:47:19:317]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:47:19:318]: log: level: 0, area: 2, -----> received data length: 40
+[2019/10/25 19:47:19:318]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : UNREAD, payload : { status : { error_code : 0 }, unread : [ { n : 2, queue : @easemob.com } ], { error_code : 0 } } }
+
+[2019/10/25 19:47:19:318]: getPong from server
+[2019/10/25 19:47:19:329]: log: level: 0, area: 2, -----> received data length: 618
+[2019/10/25 19:47:19:329]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663310234176981124, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572003748784, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : KICK, from : 1101181211084462#yuanyin_youke123@easemob.com, reason : chatroom kick offline user, is_chatroom : true, status : { error_code : 0, description :  } } }, { id : 663311481999198228, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004039304, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663311481999198228, queue : @easemob.com } }
+
+[2019/10/25 19:47:19:329]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311481999198228, queue : @easemob.com } }
+
+[2019/10/25 19:47:19:329]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:47:19:340]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:47:19:340]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:47:21:301]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 919, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : youke123 } } } }
+
+[2019/10/25 19:47:21:301]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:47:21:362]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:47:21:362]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 919, server_id : 663311490614298644 } }
+
+[2019/10/25 19:47:21:362]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:47:21:362]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:47:21:362]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:47:21:370]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:47:21:370]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311490803042324, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004041355, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663311490803042324, queue : @easemob.com } }
+
+[2019/10/25 19:47:21:371]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311490803042324, queue : @easemob.com } }
+
+[2019/10/25 19:47:21:371]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:47:21:371]: restBaseUrl()
+[2019/10/25 19:47:21:371]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:47:21:371]: EMSessionManager::checkDNS()
+[2019/10/25 19:47:21:371]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:47:21:371]: current host: domain: 39.97.9.53 port: 80
+[2019/10/25 19:47:21:371]: token is valid:   time: 1572004039251
+[2019/10/25 19:47:21:383]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:47:21:383]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:47:26:514]: log: level: 0, area: 2, -----> received data length: 52
+[2019/10/25 19:47:26:514]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:47:26:514]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:47:26:514]: log: level: 0, area: 2, <----- send out data length: 52
+[2019/10/25 19:47:26:522]: log: level: 0, area: 2, -----> received data length: 294
+[2019/10/25 19:47:26:523]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311512865081344, from : 1101181211084462#yuanyin_youke456@easemob.com/desktop, to : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, timestamp : 1572004046495, ns : CHAT, payload : { chattype : CHATROOM, from : youke456, to : 96379921825794, contents : [ { contenttype : TEXT, text : wahhahahaha } ], exts : [ { key : userInfo, type : 7, value : 120 } ] } } ], next_key : 663311512865081344, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:47:26:523]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311512865081344, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:47:26:523]: log: level: 0, area: 2, <----- send out data length: 62
+[2019/10/25 19:47:26:523]: operator() : shouldCreate : 1
+[2019/10/25 19:47:26:534]: log: level: 0, area: 2, -----> received data length: 65
+[2019/10/25 19:47:26:535]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:47:27:228]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:47:27:228]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311515675265044, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004047141, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : PRESENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:47:34:297]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 1175, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : youke123 } } } }
+
+[2019/10/25 19:47:34:297]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:47:34:323]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:47:34:323]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 1175, server_id : 663311546364987412 } }
+
+[2019/10/25 19:47:34:324]: log: level: 0, area: 2, -----> received data length: 25
+[2019/10/25 19:47:34:324]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:47:34:324]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:47:34:324]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:47:34:331]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:47:34:331]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311546432096276, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004054306, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663311546432096276, queue : @easemob.com } }
+
+[2019/10/25 19:47:34:331]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311546432096276, queue : @easemob.com } }
+
+[2019/10/25 19:47:34:331]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:47:34:341]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:47:34:341]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:47:56:632]: EMChatClientImpl::init()
+[2019/10/25 19:47:56:632]: EMConfigManager::init() 
+[2019/10/25 19:47:56:632]: ----------------------begin of config----------------------
+[2019/10/25 19:47:56:632]: key: dns_time value: 1579720982000
+[2019/10/25 19:47:56:632]: ----------------------end of config----------------------
+[2019/10/25 19:47:56:633]: addConnectionListener
+[2019/10/25 19:47:56:633]: addConnectionListener
+[2019/10/25 19:47:56:633]: addConnectionListener
+[2019/10/25 19:47:56:633]: addConnectionListener
+[2019/10/25 19:47:56:633]: EMSessionManager::login(): youke123
+[2019/10/25 19:47:56:633]: getDnsListFromServer()
+[2019/10/25 19:47:56:634]: buildUrl(): http://rs.easemob.com/easemob/server.json?sdk_version=3.1.0&app_key=1101181211084462%23yuanyin&file_version=1
+[2019/10/25 19:47:56:690]: 1 time retry
+[2019/10/25 19:47:56:690]: DNS List size: 3099
+[2019/10/25 19:47:56:690]: EMSessionManager::parseDnsServer: {"file_version":"933","resolver":{"hosts":[{"protocol":"https","port":"443","domain":"rs4.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.187"},{"protocol":"https","port":"443","domain":"rs.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.190"},{"protocol":"https","port":"443","domain":"rs2.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"59.110.89.59"},{"protocol":"https","port":"443","domain":"rs1.easemob.com"},{"protocol":"https","port":"443","domain":"rs3.easemob.com"}]},"rest":{"hosts":[{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"182.92.53.164"},{"protocol":"https","port":"443","domain":"a1.easemob.com"},{"protocol":"https","port":"443","domain":"a3-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a4.easemob.com"},{"protocol":"https","port":"443","domain":"a2-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a1-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a4-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.52"},{"protocol":"https","port":"443","domain":"a5-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.53"}]},"msync-ws":{"hosts":[{"protocol":"http","port":"80","ip":"47.95.182.153"},{"protocol":"http","port":"80","ip":"182.92.53.70"},{"protocol":"https","port":"443","domain":"im-api-v2.easemob.com"}]},"valid_before":"1579720982","im":{"hosts":[{"port":"443","domain":"im1.easemob.com","ip":"101.201.170.84"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.23.59"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.251.77"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.26.56"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.20.117"}]},"deploy_name":"easemob","tcp_resolver":{"hosts":[{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.190"},{"port":"2020","domain":"rs.easemob.com","ip":"59.110.89.59"},{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.187"}]},"msync-im":{"hosts":[{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.225"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.213"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.28.255"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.121.103"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.67.34"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.191"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.224"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.220"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.235"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.77"}]},"xmpp":{"hosts":[{"protocol":"https","port":"443","domain":"im-api.easemob.com"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.69.7"},{"protocol":"http","port":"80","domain":"im-api.easemob.com","ip":"im-api.easemob.com"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.70.156"}]},"gcm_enabled":"false"}
+[2019/10/25 19:47:56:690]: current time: 1572004076690
+[2019/10/25 19:47:56:691]: valid time: 1579720982000
+[2019/10/25 19:47:56:691]: saveConfigs()
+[2019/10/25 19:47:56:691]: write to config file: {
+    "dns_time":"1579720982000"
+}
+[2019/10/25 19:47:56:691]: ranomOffer
+[2019/10/25 19:47:56:691]: imServer before random: 
+[2019/10/25 19:47:56:691]: 47.93.69.225
+[2019/10/25 19:47:56:691]: 47.93.68.213
+[2019/10/25 19:47:56:691]: 47.94.28.255
+[2019/10/25 19:47:56:691]: 47.94.121.103
+[2019/10/25 19:47:56:691]: 47.93.67.34
+[2019/10/25 19:47:56:691]: 47.93.68.191
+[2019/10/25 19:47:56:691]: 47.93.69.224
+[2019/10/25 19:47:56:691]: 47.93.69.220
+[2019/10/25 19:47:56:691]: 47.93.69.235
+[2019/10/25 19:47:56:691]: 47.93.68.77
+[2019/10/25 19:47:56:691]: randomServers 
+[2019/10/25 19:47:56:691]: randomServers 
+[2019/10/25 19:47:56:692]: randomServers 
+[2019/10/25 19:47:56:692]: imServer after random: 
+[2019/10/25 19:47:56:692]: 47.94.28.255
+[2019/10/25 19:47:56:692]: 47.93.68.191
+[2019/10/25 19:47:56:692]: 47.94.121.103
+[2019/10/25 19:47:56:692]: 47.93.69.224
+[2019/10/25 19:47:56:692]: 47.93.69.235
+[2019/10/25 19:47:56:692]: 47.93.67.34
+[2019/10/25 19:47:56:692]: 47.93.69.220
+[2019/10/25 19:47:56:692]: 47.93.68.213
+[2019/10/25 19:47:56:692]: 47.93.69.225
+[2019/10/25 19:47:56:692]: 47.93.68.77
+[2019/10/25 19:47:56:692]: fetchToken()
+[2019/10/25 19:47:56:692]: restBaseUrl()
+[2019/10/25 19:47:56:692]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:47:56:692]: EMSessionManager::checkDNS()
+[2019/10/25 19:47:56:692]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:47:56:692]: current host: domain: 39.97.9.52 port: 80
+[2019/10/25 19:47:56:692]: fetchTokenForUser()http://39.97.9.52/1101181211084462/yuanyin/token
+[2019/10/25 19:47:56:732]: [retrieve token time] 0: 0: 39
+[2019/10/25 19:47:56:732]: fetchToken success 
+[2019/10/25 19:47:56:732]: saveToken(): user: youke123 time: 1572004076732
+[2019/10/25 19:47:56:741]: savetoken() result: 1
+[2019/10/25 19:47:56:741]: token is valid:   time: 1572004076732
+[2019/10/25 19:47:56:741]: EMDNSManager::getCurrentHost: type: 1
+[2019/10/25 19:47:56:741]: EMSessionManager::checkDNS()
+[2019/10/25 19:47:56:741]: EMDNSManager::getHost: type: 1
+[2019/10/25 19:47:56:741]: current host: domain: 47.94.28.255 port: 12024
+[2019/10/25 19:47:56:741]: setServer: 47.94.28.255
+[2019/10/25 19:47:56:741]: Calling connect...
+[2019/10/25 19:47:56:742]: doConnect()
+[2019/10/25 19:47:56:742]: current connectState: 0
+[2019/10/25 19:47:56:742]: log: level: 0, area: 1, ChatClient::connect() 
+[2019/10/25 19:47:56:742]: log: level: 0, area: 2, getSocket(): 15
+[2019/10/25 19:47:56:742]: log: level: 1, area: 2, connectSocket(): start to connecting...
+[2019/10/25 19:47:56:748]: log: level: 1, area: 2, connectSocket(): connect finished
+[2019/10/25 19:47:56:749]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, guid : 1101181211084462#yuanyin_youke123@easemob.com/mobile, auth : $t$YWMtSUriIPcdEemnjitD4REQVWmsE8EAikNRvoGTqV1ms1g6lWSw8Y4R6ZP3pVV41IZnAwMAAAFuAr6ctgBPGgA6F-bKC6D2nPcEMoARKB0DaencgPnRSNaqCSlL4cK_0g, compress_algorimth : 0, command : PROVISION, payload : { os_type : 2, version : 3.1.0 } }
+
+[2019/10/25 19:47:56:749]: log: level: 0, area: 2, <----- send out data length: 214
+[2019/10/25 19:47:56:749]: Calling connect result: 1
+[2019/10/25 19:47:56:749]: start startReceive()
+[2019/10/25 19:47:56:762]: log: level: 0, area: 2, -----> received data length: 22
+[2019/10/25 19:47:56:762]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : PROVISION, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:47:56:762]: EMSessionManager::onConnect()
+[2019/10/25 19:47:56:763]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : UNREAD, payload : {  } }
+
+[2019/10/25 19:47:56:763]: [im login time] 0: 0: 21
+[2019/10/25 19:47:56:763]: notify state change to connection listener
+[2019/10/25 19:47:56:763]: login return: 0
+[2019/10/25 19:47:56:763]: EMClient::startHeartBeat()
+[2019/10/25 19:47:56:763]: log: level: 0, area: 2, <----- send out data length: 10
+[2019/10/25 19:47:56:763]: [chat login time] 0: 0:130
+[2019/10/25 19:47:56:763]: setPresence
+[2019/10/25 19:47:56:763]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 412, ns : STATISTIC, payload : { operation : 0, im_time : 21, chat_time : 130 } } } }
+
+[2019/10/25 19:47:56:764]: log: level: 0, area: 2, <----- send out data length: 26
+[2019/10/25 19:47:56:769]: log: level: 0, area: 2, -----> received data length: 21
+[2019/10/25 19:47:56:769]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : UNREAD, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:47:56:769]: log: level: 0, area: 1, NO unread queue, an response for ping?
+[2019/10/25 19:47:56:769]: getPong from server
+[2019/10/25 19:47:56:770]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:47:56:770]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 412, server_id : 663311642846562440 } }
+
+[2019/10/25 19:47:58:784]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 668, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : youke123 } } } }
+
+[2019/10/25 19:47:58:784]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:47:58:861]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:47:58:861]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 668, server_id : 663311651520383112 } }
+
+[2019/10/25 19:47:58:861]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:47:58:861]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:47:58:861]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:47:58:868]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:47:58:868]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311651793012872, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004078850, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663311651793012872, queue : @easemob.com } }
+
+[2019/10/25 19:47:58:869]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311651793012872, queue : @easemob.com } }
+
+[2019/10/25 19:47:58:869]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:47:58:869]: restBaseUrl()
+[2019/10/25 19:47:58:869]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:47:58:869]: EMSessionManager::checkDNS()
+[2019/10/25 19:47:58:870]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:47:58:870]: current host: domain: 39.97.9.52 port: 80
+[2019/10/25 19:47:58:870]: token is valid:   time: 1572004076732
+[2019/10/25 19:47:58:879]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:47:58:879]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:47:59:718]: log: level: 0, area: 2, -----> received data length: 52
+[2019/10/25 19:47:59:718]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:47:59:718]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:47:59:718]: log: level: 0, area: 2, <----- send out data length: 52
+[2019/10/25 19:47:59:728]: log: level: 0, area: 2, -----> received data length: 294
+[2019/10/25 19:47:59:728]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311655429474308, from : 1101181211084462#yuanyin_youke456@easemob.com/desktop, to : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, timestamp : 1572004079693, ns : CHAT, payload : { chattype : CHATROOM, from : youke456, to : 96379921825794, contents : [ { contenttype : TEXT, text : wahhahahaha } ], exts : [ { key : userInfo, type : 7, value : 120 } ] } } ], next_key : 663311655429474308, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:47:59:728]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311655429474308, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:47:59:728]: log: level: 0, area: 2, <----- send out data length: 62
+[2019/10/25 19:47:59:729]: operator() : shouldCreate : 1
+[2019/10/25 19:47:59:738]: log: level: 0, area: 2, -----> received data length: 65
+[2019/10/25 19:47:59:738]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:48:0:362]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:48:0:362]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311658269018168, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004080346, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : ABSENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:48:0:363]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:48:0:364]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311658269018176, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004080346, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : PRESENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:48:11:771]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 924, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : youke123 } } } }
+
+[2019/10/25 19:48:11:771]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:48:11:822]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:48:11:822]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 924, server_id : 663311707229128840 } }
+
+[2019/10/25 19:48:11:823]: log: level: 0, area: 2, -----> received data length: 25
+[2019/10/25 19:48:11:823]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:48:11:823]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:48:11:824]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:48:11:834]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:48:11:835]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311707367540872, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004091789, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663311707367540872, queue : @easemob.com } }
+
+[2019/10/25 19:48:11:835]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311707367540872, queue : @easemob.com } }
+
+[2019/10/25 19:48:11:835]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:48:11:852]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:48:11:852]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:48:20:249]: EMChatClientImpl::init()
+[2019/10/25 19:48:20:249]: EMConfigManager::init() 
+[2019/10/25 19:48:20:249]: ----------------------begin of config----------------------
+[2019/10/25 19:48:20:249]: key: dns_time value: 1579720982000
+[2019/10/25 19:48:20:249]: ----------------------end of config----------------------
+[2019/10/25 19:48:20:249]: addConnectionListener
+[2019/10/25 19:48:20:249]: addConnectionListener
+[2019/10/25 19:48:20:249]: addConnectionListener
+[2019/10/25 19:48:20:249]: addConnectionListener
+[2019/10/25 19:48:20:250]: EMSessionManager::login(): youke123
+[2019/10/25 19:48:20:250]: getDnsListFromServer()
+[2019/10/25 19:48:20:250]: buildUrl(): http://rs.easemob.com/easemob/server.json?sdk_version=3.1.0&app_key=1101181211084462%23yuanyin&file_version=1
+[2019/10/25 19:48:20:280]: 1 time retry
+[2019/10/25 19:48:20:280]: DNS List size: 3099
+[2019/10/25 19:48:20:281]: EMSessionManager::parseDnsServer: {"file_version":"933","resolver":{"hosts":[{"protocol":"https","port":"443","domain":"rs2.easemob.com"},{"protocol":"https","port":"443","domain":"rs3.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"59.110.89.59"},{"protocol":"https","port":"443","domain":"rs4.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.190"},{"protocol":"https","port":"443","domain":"rs.easemob.com"},{"protocol":"https","port":"443","domain":"rs1.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.187"}]},"rest":{"hosts":[{"protocol":"https","port":"443","domain":"a2-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a3-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a4-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.53"},{"protocol":"https","port":"443","domain":"a1.easemob.com"},{"protocol":"https","port":"443","domain":"a4.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.52"},{"protocol":"https","port":"443","domain":"a1-v2.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"182.92.53.164"},{"protocol":"https","port":"443","domain":"a5-v2.easemob.com"}]},"msync-ws":{"hosts":[{"protocol":"http","port":"80","ip":"182.92.53.70"},{"protocol":"http","port":"80","ip":"47.95.182.153"},{"protocol":"https","port":"443","domain":"im-api-v2.easemob.com"}]},"valid_before":"1579720982","im":{"hosts":[{"port":"443","domain":"im1.easemob.com","ip":"182.92.251.77"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.26.56"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.23.59"},{"port":"443","domain":"im1.easemob.com","ip":"101.201.170.84"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.20.117"}]},"deploy_name":"easemob","tcp_resolver":{"hosts":[{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.187"},{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.190"},{"port":"2020","domain":"rs.easemob.com","ip":"59.110.89.59"}]},"msync-im":{"hosts":[{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.28.255"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.224"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.235"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.225"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.213"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.77"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.220"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.121.103"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.191"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.67.34"}]},"xmpp":{"hosts":[{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.69.7"},{"protocol":"http","port":"80","domain":"im-api.easemob.com","ip":"im-api.easemob.com"},{"protocol":"https","port":"443","domain":"im-api.easemob.com"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.70.156"}]},"gcm_enabled":"false"}
+[2019/10/25 19:48:20:281]: current time: 1572004100281
+[2019/10/25 19:48:20:281]: valid time: 1579720982000
+[2019/10/25 19:48:20:281]: saveConfigs()
+[2019/10/25 19:48:20:281]: write to config file: {
+    "dns_time":"1579720982000"
+}
+[2019/10/25 19:48:20:282]: ranomOffer
+[2019/10/25 19:48:20:282]: imServer before random: 
+[2019/10/25 19:48:20:282]: 47.94.28.255
+[2019/10/25 19:48:20:282]: 47.93.69.224
+[2019/10/25 19:48:20:282]: 47.93.69.235
+[2019/10/25 19:48:20:282]: 47.93.69.225
+[2019/10/25 19:48:20:282]: 47.93.68.213
+[2019/10/25 19:48:20:282]: 47.93.68.77
+[2019/10/25 19:48:20:282]: 47.93.69.220
+[2019/10/25 19:48:20:282]: 47.94.121.103
+[2019/10/25 19:48:20:282]: 47.93.68.191
+[2019/10/25 19:48:20:282]: 47.93.67.34
+[2019/10/25 19:48:20:282]: randomServers 
+[2019/10/25 19:48:20:282]: randomServers 
+[2019/10/25 19:48:20:282]: randomServers 
+[2019/10/25 19:48:20:282]: imServer after random: 
+[2019/10/25 19:48:20:282]: 47.93.67.34
+[2019/10/25 19:48:20:282]: 47.93.69.224
+[2019/10/25 19:48:20:282]: 47.93.68.213
+[2019/10/25 19:48:20:282]: 47.93.69.220
+[2019/10/25 19:48:20:282]: 47.93.69.235
+[2019/10/25 19:48:20:283]: 47.93.68.191
+[2019/10/25 19:48:20:283]: 47.94.121.103
+[2019/10/25 19:48:20:283]: 47.93.69.225
+[2019/10/25 19:48:20:283]: 47.93.68.77
+[2019/10/25 19:48:20:283]: 47.94.28.255
+[2019/10/25 19:48:20:283]: fetchToken()
+[2019/10/25 19:48:20:283]: restBaseUrl()
+[2019/10/25 19:48:20:283]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:48:20:283]: EMSessionManager::checkDNS()
+[2019/10/25 19:48:20:283]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:48:20:283]: current host: domain: 39.97.9.52 port: 80
+[2019/10/25 19:48:20:283]: fetchTokenForUser()http://39.97.9.52/1101181211084462/yuanyin/token
+[2019/10/25 19:48:20:324]: [retrieve token time] 0: 0: 40
+[2019/10/25 19:48:20:324]: fetchToken success 
+[2019/10/25 19:48:20:324]: saveToken(): user: youke123 time: 1572004100324
+[2019/10/25 19:48:20:330]: savetoken() result: 1
+[2019/10/25 19:48:20:330]: token is valid:   time: 1572004100324
+[2019/10/25 19:48:20:330]: EMDNSManager::getCurrentHost: type: 1
+[2019/10/25 19:48:20:330]: EMSessionManager::checkDNS()
+[2019/10/25 19:48:20:331]: EMDNSManager::getHost: type: 1
+[2019/10/25 19:48:20:331]: current host: domain: 47.93.67.34 port: 12024
+[2019/10/25 19:48:20:331]: setServer: 47.93.67.34
+[2019/10/25 19:48:20:331]: Calling connect...
+[2019/10/25 19:48:20:331]: doConnect()
+[2019/10/25 19:48:20:331]: current connectState: 0
+[2019/10/25 19:48:20:331]: log: level: 0, area: 1, ChatClient::connect() 
+[2019/10/25 19:48:20:331]: log: level: 0, area: 2, getSocket(): 15
+[2019/10/25 19:48:20:331]: log: level: 1, area: 2, connectSocket(): start to connecting...
+[2019/10/25 19:48:20:339]: log: level: 1, area: 2, connectSocket(): connect finished
+[2019/10/25 19:48:20:339]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, guid : 1101181211084462#yuanyin_youke123@easemob.com/mobile, auth : $t$YWMtV1sWRvcdEemVlOOhMv1IoGmsE8EAikNRvoGTqV1ms1g6lWSw8Y4R6ZP3pVV41IZnAwMAAAFuAr744QBPGgBMW1WJEcWD2nBholAi9E8xyU2P3ReDUMwCFJmLnWXjSw, compress_algorimth : 0, command : PROVISION, payload : { os_type : 2, version : 3.1.0 } }
+
+[2019/10/25 19:48:20:339]: log: level: 0, area: 2, <----- send out data length: 214
+[2019/10/25 19:48:20:340]: Calling connect result: 1
+[2019/10/25 19:48:20:340]: start startReceive()
+[2019/10/25 19:48:20:352]: log: level: 0, area: 2, -----> received data length: 22
+[2019/10/25 19:48:20:352]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : PROVISION, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:48:20:352]: EMSessionManager::onConnect()
+[2019/10/25 19:48:20:353]: notify state change to connection listener
+[2019/10/25 19:48:20:353]: EMClient::startHeartBeat()
+[2019/10/25 19:48:20:353]: [im login time] 0: 0: 22
+[2019/10/25 19:48:20:353]: login return: 0
+[2019/10/25 19:48:20:353]: [chat login time] 0: 0:103
+[2019/10/25 19:48:20:353]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : UNREAD, payload : {  } }
+
+[2019/10/25 19:48:20:353]: setPresence
+[2019/10/25 19:48:20:353]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 404, ns : STATISTIC, payload : { operation : 0, im_time : 22, chat_time : 103 } } } }
+
+[2019/10/25 19:48:20:353]: log: level: 0, area: 2, <----- send out data length: 10
+[2019/10/25 19:48:20:353]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:48:20:367]: log: level: 0, area: 2, -----> received data length: 55
+[2019/10/25 19:48:20:367]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : UNREAD, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:48:20:367]: log: level: 0, area: 1, NO unread queue, an response for ping?
+[2019/10/25 19:48:20:367]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 404, server_id : 663311744260638868 } }
+
+[2019/10/25 19:48:20:367]: getPong from server
+[2019/10/25 19:48:22:370]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 660, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : youke123 } } } }
+
+[2019/10/25 19:48:22:370]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:48:22:412]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:48:22:412]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 660, server_id : 663311752888322196 } }
+
+[2019/10/25 19:48:22:412]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:48:22:412]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:48:22:413]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:48:22:420]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:48:22:421]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311753018345620, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004102408, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663311753018345620, queue : @easemob.com } }
+
+[2019/10/25 19:48:22:421]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311753018345620, queue : @easemob.com } }
+
+[2019/10/25 19:48:22:421]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:48:22:421]: restBaseUrl()
+[2019/10/25 19:48:22:422]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:48:22:422]: EMSessionManager::checkDNS()
+[2019/10/25 19:48:22:422]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:48:22:422]: current host: domain: 39.97.9.52 port: 80
+[2019/10/25 19:48:22:422]: token is valid:   time: 1572004100324
+[2019/10/25 19:48:22:430]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:48:22:430]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:48:24:719]: log: level: 0, area: 2, -----> received data length: 52
+[2019/10/25 19:48:24:719]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:48:24:719]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:48:24:719]: log: level: 0, area: 2, <----- send out data length: 52
+[2019/10/25 19:48:24:728]: log: level: 0, area: 2, -----> received data length: 275
+[2019/10/25 19:48:24:729]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311762841405576, from : 1101181211084462#yuanyin_youke456@easemob.com/desktop, to : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, timestamp : 1572004104702, ns : CHAT, payload : { chattype : CHATROOM, from : youke456, to : 96379921825794, contents : [ { contenttype : TEXT, text : wahhahahaha } ] } } ], next_key : 663311762841405576, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:48:24:729]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663311762841405576, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:48:24:729]: log: level: 0, area: 2, <----- send out data length: 62
+[2019/10/25 19:48:24:729]: operator() : shouldCreate : 1
+[2019/10/25 19:48:24:741]: log: level: 0, area: 2, -----> received data length: 65
+[2019/10/25 19:48:24:741]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:48:25:602]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:48:25:602]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311766674999432, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004105592, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : ABSENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:48:25:608]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:48:25:608]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663311766687582280, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004105595, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : PRESENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:49:31:246]: EMChatClientImpl::init()
+[2019/10/25 19:49:31:247]: EMConfigManager::init() 
+[2019/10/25 19:49:31:247]: ----------------------begin of config----------------------
+[2019/10/25 19:49:31:247]: key: dns_time value: 1579720982000
+[2019/10/25 19:49:31:247]: ----------------------end of config----------------------
+[2019/10/25 19:49:31:247]: addConnectionListener
+[2019/10/25 19:49:31:247]: addConnectionListener
+[2019/10/25 19:49:31:247]: addConnectionListener
+[2019/10/25 19:49:31:247]: addConnectionListener
+[2019/10/25 19:49:31:248]: EMSessionManager::login(): youke123
+[2019/10/25 19:49:31:248]: getDnsListFromServer()
+[2019/10/25 19:49:31:248]: buildUrl(): http://rs.easemob.com/easemob/server.json?sdk_version=3.1.0&app_key=1101181211084462%23yuanyin&file_version=1
+[2019/10/25 19:49:31:286]: 1 time retry
+[2019/10/25 19:49:31:286]: DNS List size: 3099
+[2019/10/25 19:49:31:286]: EMSessionManager::parseDnsServer: {"file_version":"933","resolver":{"hosts":[{"protocol":"https","port":"443","domain":"rs3.easemob.com"},{"protocol":"https","port":"443","domain":"rs1.easemob.com"},{"protocol":"https","port":"443","domain":"rs.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.187"},{"port":"80","domain":"rs.easemob.com","ip":"59.110.89.59"},{"protocol":"https","port":"443","domain":"rs2.easemob.com"},{"protocol":"https","port":"443","domain":"rs4.easemob.com"},{"port":"80","domain":"rs.easemob.com","ip":"39.97.193.190"}]},"rest":{"hosts":[{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.53"},{"protocol":"https","port":"443","domain":"a4-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a1.easemob.com"},{"protocol":"https","port":"443","domain":"a4.easemob.com"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"39.97.9.52"},{"protocol":"http","port":"80","domain":"a1-v2.easemob.com","ip":"182.92.53.164"},{"protocol":"https","port":"443","domain":"a1-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a5-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a2-v2.easemob.com"},{"protocol":"https","port":"443","domain":"a3-v2.easemob.com"}]},"msync-ws":{"hosts":[{"protocol":"http","port":"80","ip":"182.92.53.70"},{"protocol":"https","port":"443","domain":"im-api-v2.easemob.com"},{"protocol":"http","port":"80","ip":"47.95.182.153"}]},"valid_before":"1579720982","im":{"hosts":[{"port":"443","domain":"im1.easemob.com","ip":"182.92.251.77"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.20.117"},{"port":"443","domain":"im1.easemob.com","ip":"101.201.170.84"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.26.56"},{"port":"443","domain":"im1.easemob.com","ip":"182.92.23.59"}]},"deploy_name":"easemob","tcp_resolver":{"hosts":[{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.190"},{"port":"2020","domain":"rs.easemob.com","ip":"39.97.193.187"},{"port":"2020","domain":"rs.easemob.com","ip":"59.110.89.59"}]},"msync-im":{"hosts":[{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.213"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.191"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.67.34"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.28.255"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.225"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.220"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.68.77"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.94.121.103"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.224"},{"port":"12024","domain":"msync-im1.easemob.com","ip":"47.93.69.235"}]},"xmpp":{"hosts":[{"protocol":"http","port":"80","domain":"im-api.easemob.com","ip":"im-api.easemob.com"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.70.156"},{"protocol":"https","port":"443","domain":"im-api.easemob.com"},{"protocol":"http","port":"5280","domain":"im-api.easemob.com","ip":"47.93.69.7"}]},"gcm_enabled":"false"}
+[2019/10/25 19:49:31:287]: current time: 1572004171287
+[2019/10/25 19:49:31:287]: valid time: 1579720982000
+[2019/10/25 19:49:31:287]: saveConfigs()
+[2019/10/25 19:49:31:287]: write to config file: {
+    "dns_time":"1579720982000"
+}
+[2019/10/25 19:49:31:287]: ranomOffer
+[2019/10/25 19:49:31:288]: imServer before random: 
+[2019/10/25 19:49:31:288]: 47.93.68.213
+[2019/10/25 19:49:31:288]: 47.93.68.191
+[2019/10/25 19:49:31:288]: 47.93.67.34
+[2019/10/25 19:49:31:288]: 47.94.28.255
+[2019/10/25 19:49:31:288]: 47.93.69.225
+[2019/10/25 19:49:31:288]: 47.93.69.220
+[2019/10/25 19:49:31:288]: 47.93.68.77
+[2019/10/25 19:49:31:288]: 47.94.121.103
+[2019/10/25 19:49:31:288]: 47.93.69.224
+[2019/10/25 19:49:31:288]: 47.93.69.235
+[2019/10/25 19:49:31:288]: randomServers 
+[2019/10/25 19:49:31:288]: randomServers 
+[2019/10/25 19:49:31:288]: randomServers 
+[2019/10/25 19:49:31:288]: imServer after random: 
+[2019/10/25 19:49:31:288]: 47.93.69.225
+[2019/10/25 19:49:31:288]: 47.94.121.103
+[2019/10/25 19:49:31:288]: 47.93.68.213
+[2019/10/25 19:49:31:288]: 47.93.69.224
+[2019/10/25 19:49:31:288]: 47.93.68.191
+[2019/10/25 19:49:31:288]: 47.93.69.235
+[2019/10/25 19:49:31:288]: 47.93.67.34
+[2019/10/25 19:49:31:288]: 47.94.28.255
+[2019/10/25 19:49:31:288]: 47.93.69.220
+[2019/10/25 19:49:31:288]: 47.93.68.77
+[2019/10/25 19:49:31:289]: fetchToken()
+[2019/10/25 19:49:31:289]: restBaseUrl()
+[2019/10/25 19:49:31:289]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:49:31:289]: EMSessionManager::checkDNS()
+[2019/10/25 19:49:31:289]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:49:31:289]: current host: domain: 39.97.9.53 port: 80
+[2019/10/25 19:49:31:289]: fetchTokenForUser()http://39.97.9.53/1101181211084462/yuanyin/token
+[2019/10/25 19:49:31:337]: [retrieve token time] 0: 0: 47
+[2019/10/25 19:49:31:337]: fetchToken success 
+[2019/10/25 19:49:31:337]: saveToken(): user: youke123 time: 1572004171337
+[2019/10/25 19:49:31:343]: savetoken() result: 1
+[2019/10/25 19:49:31:343]: token is valid:   time: 1572004171337
+[2019/10/25 19:49:31:343]: EMDNSManager::getCurrentHost: type: 1
+[2019/10/25 19:49:31:343]: EMSessionManager::checkDNS()
+[2019/10/25 19:49:31:343]: EMDNSManager::getHost: type: 1
+[2019/10/25 19:49:31:343]: current host: domain: 47.93.69.225 port: 12024
+[2019/10/25 19:49:31:343]: setServer: 47.93.69.225
+[2019/10/25 19:49:31:343]: Calling connect...
+[2019/10/25 19:49:31:343]: doConnect()
+[2019/10/25 19:49:31:344]: current connectState: 0
+[2019/10/25 19:49:31:344]: log: level: 0, area: 1, ChatClient::connect() 
+[2019/10/25 19:49:31:344]: log: level: 0, area: 2, getSocket(): 15
+[2019/10/25 19:49:31:344]: log: level: 1, area: 2, connectSocket(): start to connecting...
+[2019/10/25 19:49:31:352]: log: level: 1, area: 2, connectSocket(): connect finished
+[2019/10/25 19:49:31:352]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, guid : 1101181211084462#yuanyin_youke123@easemob.com/mobile, auth : $t$YWMtgaz5MvcdEem3DCmd1WqUN2msE8EAikNRvoGTqV1ms1g6lWSw8Y4R6ZP3pVV41IZnAwMAAAFuAsAOOQBPGgBHMw5sz0hIFBB0375af7YwunrJJpGaEy9SbRbkiCrk_g, compress_algorimth : 0, command : PROVISION, payload : { os_type : 2, version : 3.1.0 } }
+
+[2019/10/25 19:49:31:352]: log: level: 0, area: 2, <----- send out data length: 214
+[2019/10/25 19:49:31:352]: Calling connect result: 1
+[2019/10/25 19:49:31:352]: start startReceive()
+[2019/10/25 19:49:31:366]: log: level: 0, area: 2, -----> received data length: 22
+[2019/10/25 19:49:31:366]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : PROVISION, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:49:31:366]: EMSessionManager::onConnect()
+[2019/10/25 19:49:31:366]: notify state change to connection listener
+[2019/10/25 19:49:31:366]: [im login time] 0: 0: 22
+[2019/10/25 19:49:31:366]: EMClient::startHeartBeat()
+[2019/10/25 19:49:31:366]: login return: 0
+[2019/10/25 19:49:31:366]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : UNREAD, payload : {  } }
+
+[2019/10/25 19:49:31:367]: log: level: 0, area: 2, <----- send out data length: 10
+[2019/10/25 19:49:31:367]: [chat login time] 0: 0:119
+[2019/10/25 19:49:31:367]: setPresence
+[2019/10/25 19:49:31:367]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 411, ns : STATISTIC, payload : { operation : 0, im_time : 22, chat_time : 119 } } } }
+
+[2019/10/25 19:49:31:367]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:49:31:367]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 667, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : youke123 } } } }
+
+[2019/10/25 19:49:31:367]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:49:31:378]: log: level: 0, area: 2, -----> received data length: 21
+[2019/10/25 19:49:31:378]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : UNREAD, payload : { status : { error_code : 0 } } }
+
+[2019/10/25 19:49:31:378]: log: level: 0, area: 1, NO unread queue, an response for ping?
+[2019/10/25 19:49:31:378]: getPong from server
+[2019/10/25 19:49:31:378]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:49:31:378]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 411, server_id : 663312049199122580 } }
+
+[2019/10/25 19:49:31:403]: log: level: 0, area: 2, -----> received data length: 34
+[2019/10/25 19:49:31:403]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 667, server_id : 663312049220094100 } }
+
+[2019/10/25 19:49:31:418]: log: level: 0, area: 2, -----> received data length: 25
+[2019/10/25 19:49:31:418]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:49:31:418]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:49:31:418]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:49:31:426]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:49:31:426]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312049287202964, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004171388, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663312049287202964, queue : @easemob.com } }
+
+[2019/10/25 19:49:31:426]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663312049287202964, queue : @easemob.com } }
+
+[2019/10/25 19:49:31:426]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:49:31:436]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:49:31:437]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:49:33:385]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 923, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : youke123 } } } }
+
+[2019/10/25 19:49:33:385]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:49:33:448]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:49:33:448]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 923, server_id : 663312057839388820 } }
+
+[2019/10/25 19:49:33:448]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:49:33:448]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:49:33:448]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:49:33:457]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:49:33:457]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312058057492628, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004173431, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663312058057492628, queue : @easemob.com } }
+
+[2019/10/25 19:49:33:457]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663312058057492628, queue : @easemob.com } }
+
+[2019/10/25 19:49:33:457]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:49:33:458]: restBaseUrl()
+[2019/10/25 19:49:33:458]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:49:33:458]: EMSessionManager::checkDNS()
+[2019/10/25 19:49:33:458]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:49:33:458]: current host: domain: 39.97.9.53 port: 80
+[2019/10/25 19:49:33:458]: token is valid:   time: 1572004171337
+[2019/10/25 19:49:33:467]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:49:33:467]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:49:37:264]: log: level: 0, area: 2, -----> received data length: 52
+[2019/10/25 19:49:37:264]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:49:37:264]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:49:37:265]: log: level: 0, area: 2, <----- send out data length: 52
+[2019/10/25 19:49:37:277]: log: level: 0, area: 2, -----> received data length: 275
+[2019/10/25 19:49:37:277]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312074398500892, from : 1101181211084462#yuanyin_youke456@easemob.com/desktop, to : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, timestamp : 1572004177231, ns : CHAT, payload : { chattype : CHATROOM, from : youke456, to : 96379921825794, contents : [ { contenttype : TEXT, text : wahhahahaha } ] } } ], next_key : 663312074398500892, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:49:37:277]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663312074398500892, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:49:37:277]: log: level: 0, area: 2, <----- send out data length: 62
+[2019/10/25 19:49:37:278]: operator() : shouldCreate : 1
+[2019/10/25 19:49:37:292]: log: level: 0, area: 2, -----> received data length: 65
+[2019/10/25 19:49:37:292]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:49:38:224]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:49:38:224]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312078534084624, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004178193, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : PRESENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:49:46:378]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 1179, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : youke123 } } } }
+
+[2019/10/25 19:49:46:378]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:49:46:404]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:49:46:404]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 1179, server_id : 663312113581688980 } }
+
+[2019/10/25 19:49:46:404]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:49:46:405]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:49:46:405]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:49:46:414]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:49:46:414]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312113644603540, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004186372, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : LEAVE, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663312113644603540, queue : @easemob.com } }
+
+[2019/10/25 19:49:46:414]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663312113644603540, queue : @easemob.com } }
+
+[2019/10/25 19:49:46:414]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:49:46:424]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:49:46:424]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:49:51:352]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { meta : { id : 1435, to : @easemob.com, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : youke123 } } } }
+
+[2019/10/25 19:49:51:352]: log: level: 0, area: 2, <----- send out data length: 116
+[2019/10/25 19:49:51:402]: log: level: 0, area: 2, -----> received data length: 59
+[2019/10/25 19:49:51:402]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, meta_id : 1435, server_id : 663312135090083988 } }
+
+[2019/10/25 19:49:51:402]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:49:51:403]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : @easemob.com } }
+
+[2019/10/25 19:49:51:403]: log: level: 0, area: 2, <----- send out data length: 25
+[2019/10/25 19:49:51:411]: log: level: 0, area: 2, -----> received data length: 317
+[2019/10/25 19:49:51:411]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312135224297620, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004191397, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : JOIN, from : 1101181211084462#yuanyin_youke123@easemob.com, status : { error_code : 0, description :  } } } ], next_key : 663312135224297620, queue : @easemob.com } }
+
+[2019/10/25 19:49:51:411]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663312135224297620, queue : @easemob.com } }
+
+[2019/10/25 19:49:51:411]: log: level: 0, area: 2, <----- send out data length: 35
+[2019/10/25 19:49:51:412]: restBaseUrl()
+[2019/10/25 19:49:51:412]: EMDNSManager::getCurrentHost: type: 2
+[2019/10/25 19:49:51:412]: EMSessionManager::checkDNS()
+[2019/10/25 19:49:51:412]: EMDNSManager::getHost: type: 2
+[2019/10/25 19:49:51:412]: current host: domain: 39.97.9.53 port: 80
+[2019/10/25 19:49:51:412]: token is valid:   time: 1572004171337
+[2019/10/25 19:49:51:423]: log: level: 0, area: 2, -----> received data length: 38
+[2019/10/25 19:49:51:423]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : @easemob.com, is_last : true } }
+
+[2019/10/25 19:49:54:833]: log: level: 0, area: 2, -----> received data length: 52
+[2019/10/25 19:49:54:834]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : NOTICE, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:49:54:834]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:49:54:834]: log: level: 0, area: 2, <----- send out data length: 52
+[2019/10/25 19:49:54:844]: log: level: 0, area: 2, -----> received data length: 294
+[2019/10/25 19:49:54:844]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312149879195768, from : 1101181211084462#yuanyin_youke456@easemob.com/desktop, to : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, timestamp : 1572004194819, ns : CHAT, payload : { chattype : CHATROOM, from : youke456, to : 96379921825794, contents : [ { contenttype : TEXT, text : wahhahahaha } ], exts : [ { key : userInfo, type : 7, value : 120 } ] } } ], next_key : 663312149879195768, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:49:54:844]: log: level: 1, area: 1, SEND:
+{ verison : MSYNC_V1, compress_algorimth : 0, command : SYNC, payload : { key : 663312149879195768, queue : 96379921825794@conference.easemob.com } }
+
+[2019/10/25 19:49:54:844]: log: level: 0, area: 2, <----- send out data length: 62
+[2019/10/25 19:49:54:845]: operator() : shouldCreate : 1
+[2019/10/25 19:49:54:855]: log: level: 0, area: 2, -----> received data length: 65
+[2019/10/25 19:49:54:856]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:49:55:25]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:49:55:26]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312150806136852, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004195016, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : ABSENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:49:55:33]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:49:55:33]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312150818719888, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004195019, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : PRESENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+
+[2019/10/25 19:50:0:436]: log: level: 0, area: 2, -----> received data length: 327
+[2019/10/25 19:50:0:436]: log: level: 1, area: 1, RECV:
+{ verison : MSYNC_V1, command : SYNC, payload : { status : { error_code : 0 }, metas : [ { id : 663312173962893332, from : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, to : 1101181211084462#yuanyin_youke123@easemob.com, timestamp : 1572004200418, ns : MUC, payload : { muc_id : 1101181211084462#yuanyin_96379921825794@conference.easemob.com, operation : ABSENCE, from : 1101181211084462#yuanyin_youke456@easemob.com, is_chatroom : true } } ], queue : 96379921825794@conference.easemob.com, is_last : true } }
+

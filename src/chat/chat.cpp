@@ -81,7 +81,9 @@ void Chat::onReceiveMessages(const easemob::EMMessageList &messages)
             {
                 string text = static_cast<easemob::EMTextMessageBody*>(m->bodies()[0].get())->text();
 		if(_handleReceiveMessage != NULL) {
-		   _handleReceiveMessage(text, m->from(), m->to(), "text");
+		    string userinfo;
+		    m->getAttribute("userInfo", userinfo);
+		   _handleReceiveMessage(text, m->from(), m->to(), "text", userinfo);
 		}
             }
         }
@@ -126,7 +128,7 @@ int Chat::joinedChatroomById(const std::string &roomId)
 int Chat::login(
 	const std::string &uid,
 	const std::string &passwd,
-	void (*handleReceiveMessage)(std::string, std::string, std::string, std::string),
+	void (*handleReceiveMessage)(std::string, std::string, std::string, std::string, std::string),
  	void (*handleReceiveError)(std::string) 
  ) {
 	easemob::EMErrorPtr result = chatClient->login(uid, passwd);
