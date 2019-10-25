@@ -1,0 +1,1 @@
+cmd_Release/obj.target/addon.node := g++ -shared -pthread -rdynamic -m64 -L/cppnode/src/third_party/easemob  -Wl,-soname=addon.node -o Release/obj.target/addon.node -Wl,--start-group Release/obj.target/addon/src/chat/node.o Release/obj.target/addon/src/chat/chat.o -Wl,--end-group -pthread -leasemob -lcurl -lssl -lz -lncurses -lsqlite3
