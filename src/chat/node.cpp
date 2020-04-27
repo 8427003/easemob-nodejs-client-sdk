@@ -1,6 +1,7 @@
 #include "chat.h"
 #include <node.h>
 #include <uv.h>
+#include <iostream>
 
 namespace WrappedChat {
 
@@ -34,24 +35,20 @@ void init(const FunctionCallbackInfo<Value>& args) {
 class Msg {
    public:
 	Msg(std::string content, std::string from, std::string to, std::string type, std::string ext) {
-		this->_content = const_cast<char*>(content.c_str());
-		this->_from = const_cast<char*>(from.c_str());
-		this->_to = const_cast<char*>(to.c_str());
-		this->_type = const_cast<char*>(type.c_str());
-		this->_ext = const_cast<char*>(ext.c_str());
+		this->_content = content;
+		this->_from = from;
+		this->_to = to;
+		this->_type = type;
+		this->_ext = ext;
 	};
 	~Msg() {
-		this->_content = NULL;
-		this->_from = NULL;
-		this->_to = NULL;
-		this->_type = NULL;
-		this->_ext = NULL;
+
 	};
-	char* _content;
-	char* _from;
-	char* _to;
-	char* _type;
-	char* _ext;
+	std::string _content;
+	std::string _from;
+	std::string _to;
+	std::string _type;
+	std::string _ext;
 };
 
 void callback(uv_async_t *handle) {
@@ -65,13 +62,15 @@ void callback(uv_async_t *handle) {
 	auto msg = (Msg *)(handle->data);
 
 	const unsigned argc = 5;
+
 	Local<Value> argv[argc] = {
-	   String::NewFromUtf8(isolate, msg->_content, NewStringType::kNormal).ToLocalChecked(),
-	   String::NewFromUtf8(isolate, msg->_from, NewStringType::kNormal).ToLocalChecked(),
-	   String::NewFromUtf8(isolate, msg->_to, NewStringType::kNormal).ToLocalChecked(),
-	   String::NewFromUtf8(isolate, msg->_type, NewStringType::kNormal).ToLocalChecked(),
-	   String::NewFromUtf8(isolate, msg->_ext, NewStringType::kNormal).ToLocalChecked()
+	   String::NewFromUtf8(isolate, const_cast<char*>(msg->_content.c_str()) , NewStringType::kNormal).ToLocalChecked(),
+	   String::NewFromUtf8(isolate, const_cast<char*>(msg->_from.c_str()), NewStringType::kNormal).ToLocalChecked(),
+	   String::NewFromUtf8(isolate, const_cast<char*>(msg->_to.c_str()), NewStringType::kNormal).ToLocalChecked(),
+	   String::NewFromUtf8(isolate, const_cast<char*>(msg->_type.c_str()), NewStringType::kNormal).ToLocalChecked(),
+	   String::NewFromUtf8(isolate, const_cast<char*>(msg->_ext.c_str()), NewStringType::kNormal).ToLocalChecked()
 	};
+	delete msg;
 
 	Local<Function>::New(isolate, _onMessage)->Call(context, Null(isolate), argc, argv).ToLocalChecked();
 }

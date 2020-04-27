@@ -1,6 +1,7 @@
 #include "chat.h"
 #include "message/emmessage.h"
 #include "message/emtextmessagebody.h"
+#include "message/emimagemessagebody.h"
 #include "emclient.h"
 #include "emchatmanager_interface.h"
 #include "emchatroommanager_interface.h"
@@ -77,15 +78,29 @@ void Chat::onReceiveMessages(const easemob::EMMessageList &messages)
     std::cout << "onreceive...." <<std::endl;
     if(messages.size() > 0) {
         for(auto m: messages) { 
+	    string userinfo;
+	    m->getAttribute("userInfo", userinfo);
+	    string virtualName;
+	    m->getAttribute("virtualName", virtualName);
+	    string ext = string("{\"usesrInfo\":") + userinfo + string(",\"virtualName\":\"") + virtualName + string("\"}");
+
+            string msgType;
+            string content;
+
             if (m->bodies().size() > 0 && m->bodies()[0]->type() == easemob::EMMessageBody::TEXT)
             {
-                string text = static_cast<easemob::EMTextMessageBody*>(m->bodies()[0].get())->text();
-		if(_handleReceiveMessage != NULL) {
-		    string userinfo;
-		    m->getAttribute("userInfo", userinfo);
-		   _handleReceiveMessage(text, m->from(), m->to(), "text", userinfo);
-		}
+		msgType = "text";
+                content = static_cast<easemob::EMTextMessageBody*>(m->bodies()[0].get())->text();
             }
+            else if (m->bodies().size() > 0 && m->bodies()[0]->type() == easemob::EMMessageBody::IMAGE)
+            {
+		msgType = "image";
+                content = static_cast<easemob::EMImageMessageBody*>(m->bodies()[0].get())->thumbnailRemotePath();
+            }
+
+	    if(_handleReceiveMessage != NULL) {
+		_handleReceiveMessage(content, m->from(), m->to(), msgType, ext);
+	    }
         }
     }
 }

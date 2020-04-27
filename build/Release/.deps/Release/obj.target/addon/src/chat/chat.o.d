@@ -18,6 +18,9 @@ Release/obj.target/addon/src/chat/chat.o: ../src/chat/chat.cpp \
  ../src/third_party/easemob/include/emconversation.h \
  ../src/third_party/easemob/include/message/emmessage.h \
  ../src/third_party/easemob/include/message/emtextmessagebody.h \
+ ../src/third_party/easemob/include/message/emimagemessagebody.h \
+ ../src/third_party/easemob/include/message/emfilemessagebody.h \
+ ../src/third_party/easemob/include/message/emmessagebody.h \
  ../src/third_party/easemob/include/emchatmanager_interface.h \
  ../src/third_party/easemob/include/emchatmanager_listener.h \
  ../src/third_party/easemob/include/emencryptprovider_interface.h \
@@ -46,6 +49,9 @@ Release/obj.target/addon/src/chat/chat.o: ../src/chat/chat.cpp \
 ../src/third_party/easemob/include/emconversation.h:
 ../src/third_party/easemob/include/message/emmessage.h:
 ../src/third_party/easemob/include/message/emtextmessagebody.h:
+../src/third_party/easemob/include/message/emimagemessagebody.h:
+../src/third_party/easemob/include/message/emfilemessagebody.h:
+../src/third_party/easemob/include/message/emmessagebody.h:
 ../src/third_party/easemob/include/emchatmanager_interface.h:
 ../src/third_party/easemob/include/emchatmanager_listener.h:
 ../src/third_party/easemob/include/emencryptprovider_interface.h:
